@@ -29,9 +29,10 @@ body{
 header{
     width: 100%;
     height: 600px;
-    background: #70e1f5;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #a1310f00, #f5890e79),url(assest/img/portadatallerpascuala.jpg);
-    background: linear-gradient(to right, #a1310f04, rgba(245, 137, 14, 0.603)),url(assest/img/portadatallerpascuala.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #6D6027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d3cbb87c, #6d602786), url(assest/img/portadatallerpascuala1.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d3cbb87e, #6d60279a), url(assest/img/portadatallerpascuala1.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     background-size: cover;
     background-attachment: fixed;
     position: relative;
@@ -65,7 +66,7 @@ header .textos-header{
 
 .textos-header h1{
     font-size: 50px;
-    color: white;
+    color: #e2e2e2;
 }
 
 .textos-header h2{
@@ -101,11 +102,12 @@ main .sobre-nosotros{
 
 .contenido-textos h3{
     margin-bottom: 15px;
+    color:#414141
 }
 
 .contenido-textos h3 span{
-    background: brown;
-    color: #fff;
+    background: rgb(163, 75, 24);
+    color: #e2e2e2;
     border-radius: 50%;
     display: inline-block;
     text-align: center;
@@ -120,6 +122,8 @@ main .sobre-nosotros{
     padding: 0px 0px 30px 15px;
     font-weight: 300;
     text-align: justify;
+    color: rgb(65, 65, 65);
+    font-family: sans-serif;
 }
 
 /*galeria*/
@@ -157,7 +161,7 @@ main .sobre-nosotros{
     height: 100%;
     top: 0;
     transform: scale(0);
-    background: hsla(273, 91%, 27%, 0.7);
+    background: hsla(16, 21%, 14%, 0.5);
     transition: transform .5s;
     display: flex;
     justify-content: center;
@@ -186,7 +190,7 @@ main .sobre-nosotros{
 }
 
 .cards .card{
-    background: #70e1f5c4;
+    background: #2e1919c4;
     display: flex;
     width: 46%;
     height: 200px;
@@ -200,18 +204,19 @@ main .sobre-nosotros{
     width: 100px;
     height: 100px;
     object-fit: cover;
-    border: 3px solid #fff;
+    border: 4px solid #818181;
     border-radius: 50%;
     display: block;
 }
 
-.card .card > .contenido-texto-card{
+.cards .card > .contenido-texto-card{
     width: 60%;
     color: #fff;
 }
 .cards .card > .contenido-texto-card p{
     font-weight: 300;
     padding-top: 5px;
+    color: #ccc;
 }
 
 /*Our team */
@@ -234,16 +239,31 @@ main .sobre-nosotros{
 
 .servicios-ind img{
     width: 90%;
+    border-radius: 4px;
+    height: 90%;
 }
 
 .servicios-ind h3{
     margin: 10px 0;
+    color: #414141;
 }
 
 .servicios-ind p{
     font-weight: 300;
-    text-align: justify;
+    text-align: center;
+    color:#414141;
+    font-family: sans-serif;
+
 }
+
+ .servicios-pag >a{
+    padding: 50px;
+
+}
+
+
+
+
 
 /*footer*/
 
