@@ -95,8 +95,8 @@ main .sobre-nosotros{
 
 .imagen-about-us{
     width: 48%;
-    border-radius: 5px;
-    padding-right: 10px;
+    border-radius: 5%;
+    padding: 15px;
 }
 
 .sobre-nosotros .contenido-textos{
