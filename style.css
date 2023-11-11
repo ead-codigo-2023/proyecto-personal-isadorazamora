@@ -308,14 +308,14 @@ footer{
 }
 
 .content-foo p{
-    color: #ccc;
+    color: #fff;
 }
 
 .titulo-final{
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
     margin: 20px 0 0 0;
-    color: #9e9797;
+    color: #b4b4b4;
 
 }
 
