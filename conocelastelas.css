@@ -241,6 +241,11 @@ footer{
 
 }
 
+.insta{
+    color: #ffff;
+    box-sizing: content-box;
+}
+
 @media screen and (max-width: 900px){
 
     header{
