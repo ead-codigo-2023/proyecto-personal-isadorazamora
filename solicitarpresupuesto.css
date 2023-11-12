@@ -103,12 +103,12 @@ header .textos-header{
 }
 
 .footer-bg{
-    background-image: url(assest/img/carrusel1.jpg);
+    background-image: url(assest/img/presupuestofondo.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-    padding: 100px 0;
+    padding: 130px 0;
     background-image: 0.6;
 }
 
@@ -141,10 +141,17 @@ textarea{
 }
 
 .footer-bg h2{
-    color: #ffff;
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #907040;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
     font-family: 'DM Sans', sans-serif;
+    margin:25px 0;
+    border: 0;
 }
-
 .footer-txt{
     text-align: center;
     padding: 10px;
@@ -156,54 +163,7 @@ textarea{
 
 
 
-/*Our team */
 
-.about-services{
-    background: #f2f2f2;
-    padding-bottom: 30px;
-}
-
-.servicios-cont{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.servicios-ind{
-    width: 28%;
-    text-align: center;
-}
-
-.servicios-ind img{
-    width: 80%;
-    border-radius: 4px;
-    height:90%;
-    padding: 20px;
-}
-
-.servicios-ind h3{
-    margin: 10px 0;
-    color: #414141;
-}
-
-.servicios-ind p{
-    font-weight: 300;
-    text-align: center;
-    color:#414141;
-    font-family: sans-serif;
-
-}
-
-.btn {
-    padding: 10px;
-    display: inline-block;
-    text-align: center;
-    margin-top: 15px;
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #907040;
-    border-radius: 2px;
-}
 
 
 
