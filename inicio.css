@@ -346,12 +346,12 @@ main .sobre-nosotros{
 }
 
 .servicios-ind{
-    width: 28%;
+    width: 18%;
     text-align: center;
 }
 
 .servicios-ind img{
-    width: 30%;
+    width: 90%;
     border-radius: 4px;
     height:90%;
     padding: 20px;
